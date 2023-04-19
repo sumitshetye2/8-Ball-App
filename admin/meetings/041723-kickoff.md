@@ -1,7 +1,7 @@
 # We Take Showers Kickoff Meeting
 *Minutes Created by: Sumit Shetye*
 
-Attendance: Everyone but TA Atended Kickoff Meeting  
+Attendance: Everyone but TA
 Held on 4/17/2023 @8pm via Zoom
 
 ## Agenda
@@ -14,7 +14,7 @@ Held on 4/17/2023 @8pm via Zoom
 
 - New Team Name
   - Team name will be "We Take Showers"
-  - Icon is a shower head
+  - Icon design TBD
 
 - Team Intro Video
     - Shol and Nicholas will work with iMovie to edit video since they have Macs
