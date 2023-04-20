@@ -19,15 +19,15 @@ Hi! My name is Linda and some of my professional interests include product manag
 
 <hr />
 
-## Name
+## Kartik Gugnani
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/kartikg.png" alt="Kartik Gugnani" width="200">
 
-- Major
-- Year
-- [Page]()
+- Computer Science
+- Junior
+- [Page](https://github.com/kgugnani)
   
-*TODO: add self introduction here*
+Hello! I'm Kartik and I'm a junior studying Computer Science. I'm interested in software engineering and web development.
 
 <hr />
 
