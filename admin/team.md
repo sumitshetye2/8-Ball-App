@@ -1,21 +1,21 @@
 # We Take Showers
 ### CSE110 Spring23 Team24
 
-*TODO: add team values*
+Values: Empathy, Communication, Integrity, Growth
 
 ## Members
 
 <hr />
 
-## Name
+## Linda Wu
 
 <img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
 
-- Major
-- Year
+- CS
+- Junior
 - [Page]()
   
-*TODO: add self introduction here*
+Hi! My name is Linda and some of my professional interests include product management and software engineering.
 
 <hr />
 
