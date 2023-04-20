@@ -111,7 +111,7 @@
 - Junior
 - [Page](https://haoyangguo.github.io/cse110-lab1/)
   
-Hi everybody! I look forward to working with the team and learn essential soft skills that can prepare me for the industry.
+Hi everybody! I look forward to working with the team and learning essential soft skills that can prepare me for the industry.
 
 
 
