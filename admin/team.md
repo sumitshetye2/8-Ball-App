@@ -9,7 +9,7 @@ Values: Empathy, Communication, Integrity, Growth
 
 ## Linda Wu
 
-<img src="./images/lindawu.jpg" alt="Linda Wu" width="300">
+<img src="./images/YOURNAME.jpg" alt="Linda Wu" width="300">
 
 - CS
 - Junior
