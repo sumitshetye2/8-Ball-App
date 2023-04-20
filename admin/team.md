@@ -9,7 +9,7 @@
 
 ## Name
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150" style="border-radius: 50%;">
+<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150">
 
 - Major
 - Year
@@ -21,7 +21,7 @@
 
 ## Name
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150" style="border-radius: 50%;">
+<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150">
 
 - Major
 - Year
@@ -33,7 +33,7 @@
 
 ## Name
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150" style="border-radius: 50%;">
+<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150">
 
 - Major
 - Year
@@ -45,7 +45,7 @@
 
 ## Name
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150" style="border-radius: 50%;">
+<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150">
 
 - Major
 - Year
@@ -57,7 +57,7 @@
 
 ## Name
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150" style="border-radius: 50%;">
+<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150">
 
 - Major
 - Year
@@ -69,7 +69,7 @@
 
 ## Name
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150" style="border-radius: 50%;">
+<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150">
 
 - Major
 - Year
@@ -81,7 +81,7 @@
 
 ## Name
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150" style="border-radius: 50%;">
+<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150">
 
 - Major
 - Year
@@ -93,7 +93,7 @@
 
 ## Name
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150" style="border-radius: 50%;">
+<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="150">
 
 - Major
 - Year
@@ -105,7 +105,7 @@
 
 ## Haoyang Guo
 
-<img src="./images/haoyangguo.jpg" alt="Haoyang Guo" width="150" style="border-radius: 50%;">
+<img src="./images/haoyangguo.jpg" alt="Haoyang Guo" width="150">
 
 - Math-CS
 - Junior
