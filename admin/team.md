@@ -9,11 +9,11 @@ Values: Empathy, Communication, Integrity, Growth
 
 ## Linda Wu
 
-<img src="./images/lindawu.jpg" alt="Linda Wu" width="300" height="300">
+<img src="./images/lindawu.jpg" alt="Linda Wu" width="200">
 
 - CS
 - Junior
-- [Page]()
+- [Page](https://liindawu.github.io/Lab1/)
   
 Hi! My name is Linda and some of my professional interests include product management and software engineering.
 
