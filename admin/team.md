@@ -31,15 +31,15 @@ Hello! I'm Kartik and I'm a junior studying Computer Science. I'm interested in 
 
 <hr />
 
-## Name
+## Sumit Shetye
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/sumit.jpg" alt="YOUR NAME HERE" width="200">
 
-- Major
-- Year
-- [Page]()
+- Math-CS
+- Junior
+- [Page](https://sumitshetye2.github.io/first-lab/)
   
-*TODO: add self introduction here*
+Hello! My name is Sumit and my interests lie in software engineering and game development.
 
 <hr />
 
