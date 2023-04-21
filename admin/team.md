@@ -55,15 +55,15 @@ Hello! My name is Maanasa Prasad and I am interested in Software Engineering.
 
 <hr />
 
-## Name
+## Nicholas Ho
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/nick.jpg" alt="Nicholas Ho" width="300">
 
-- Major
-- Year
-- [Page]()
+- Computer Science
+- Sophomore
+- [Page](https://nickho2048.github.io/Cse-110-revised/index)
   
-*TODO: add self introduction here*
+Hello! My name is Nicholas Ho, and I'm interested in Artificial Intelligence, Front End Development, and Product Management. 
 
 <hr />
 
