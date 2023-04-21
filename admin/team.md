@@ -79,15 +79,15 @@ Hello! My name is Nathan Huey and I am interested in software engineering and da
 
 <hr />
 
-## Name
+## Sholehani Hafezi
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/shol.jpg" alt="Sholehani Hafezi" width="300">
 
-- Major
-- Year
-- [Page]()
+- Computer Science
+- Junior
+- [Page](https://sholehani.github.io/cse110-lab1/)
   
-*TODO: add self introduction here*
+Hi! My name is Shol and I interested mainly in web development and software engineering. 
 
 <hr />
 
