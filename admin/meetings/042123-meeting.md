@@ -1,4 +1,4 @@
-# We Take Showers Kickoff Meeting
+# We Take Showers Meeting
 *Minutes Created by: Linda Wu*
 
 Attendance: Everyone but TA
