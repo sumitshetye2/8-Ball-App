@@ -43,15 +43,15 @@ Hello! My name is Sumit and my interests lie in software engineering and game de
 
 <hr />
 
-## Name
+## Maanasa Prasad
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/maanasa_p.jpg" alt="Maanasa Prasad" width="300">
 
-- Major
-- Year
-- [Page]()
+- Math-CS
+- Sophomore
+- [Page](https://maanasa64.github.io/cse110-lab01/)
   
-*TODO: add self introduction here*
+Hello! My name is Maanasa Prasad and I am interested in Software Engineering. 
 
 <hr />
 
