@@ -91,15 +91,15 @@ Hi! My name is Shol and I interested mainly in web development and software engi
 
 <hr />
 
-## Name
+## Benjamin Liang
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/ben.jpg" alt="Benjamin Liang" width="300">
 
-- Major
-- Year
-- [Page]()
+- Major Math - CS
+- Year Sophomore
+- [Page](https://beliang.github.io/cse110-lab1/)
   
-*TODO: add self introduction here*
+Hello! My name is Benjamin Liang and I am interested in Artificial Intelligence and Backend Development.
 
 <hr />
 
