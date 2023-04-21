@@ -67,13 +67,13 @@ Hello! My name is Nicholas Ho, and I'm interested in Artificial Intelligence, Fr
 
 <hr />
 
-## Name
+## Nathan Huey
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/nathan.jpg" alt="Nathan Huey" width="300">
 
-- Major
-- Year
-- [Page]()
+- Math-CS
+- Sophomore
+- [Page](https://nahuey.github.io/cse110sp2023-lab1/)
   
 *TODO: add self introduction here*
 
