@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blue;
+    color: #fff;
+}
+
+h1 {
+    user-select: none
+}
+
+.container {
+    max-width: 600px;
+    margin-inline: auto;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+#answer {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    padding-inline: 30px;
+    padding-block: 30px;
+    border-radius: 10px;
+    user-select: none
+}
+
+.magic-8-ball {
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle at 50% 45%, #222, #111 70%);
+    border-radius: 50%;
+    cursor: pointer;
+    margin: auto;
+    position: relative;
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+    20%, 40%, 60%, 80% { transform: translateX(5px); }
+  }
+
+.shaking {
+    animation: shake 0.5s;
+}
