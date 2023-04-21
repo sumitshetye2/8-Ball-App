@@ -75,7 +75,7 @@ Hello! My name is Nicholas Ho, and I'm interested in Artificial Intelligence, Fr
 - Sophomore
 - [Page](https://nahuey.github.io/cse110sp2023-lab1/)
   
-*TODO: add self introduction here*
+Hello! My name is Nathan Huey and I am interested in software engineering and data science.
 
 <hr />
 
