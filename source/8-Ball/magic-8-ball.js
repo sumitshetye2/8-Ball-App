@@ -28,15 +28,6 @@ function getAnswer() {
   ];
 
   const ball = document.querySelector(".magic-8-ball");
-  const form = document.querySelector('form');
-  const searchBox = document.querySelector('#searchbox');
-  const searchResults = document.querySelector('#search-results');
-
-  form.addEventListener('submit', (event) => {
-    event.preventDefault(); // prevent the form from submitting and reloading the page
-    const query = searchBox.value;
-    searchResults.textContent = query;
-  });
 
   // Add a click event listener to the Magic 8-Ball
   ball.addEventListener("click", function () {
