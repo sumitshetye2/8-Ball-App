@@ -9,11 +9,17 @@
   <body>
     <div class="container">
       <h1>Magic 8-Ball</h1>
-      <div class="magic-8-ball" onclick="getAnswer()">
-        <p id="answer"></p>
+      <div class="magic-8-ball disabled" onclick="getAnswer()">
+        <p id="answer">Click the ball to get an answer</p>
       </div>
     </div>
-    <script src="magic-8-ball.js"></script>
     <audio id="sound" src="8ballnoise.mp3" preload="auto"></audio>
+    <div class="container2">
+      <form onsubmit="event.preventDefault();">
+        <label for="question">Ask a Question:</label>
+        <input type="text" id="question" name="question" required>
+      </form>
+    </div>
+    <script src="magic-8-ball.js"></script>
   </body>
 </html>
