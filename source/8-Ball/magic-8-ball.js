@@ -27,14 +27,23 @@ function getAnswer() {
 
   const ball = document.querySelector(".magic-8-ball");
 
-  // Add shaking class
-  ball.classList.add("shaking");
+  // Add a click event listener to the Magic 8-Ball
+  ball.addEventListener('click', function() {
+    // Play the sound effect
+    var sound = document.getElementById('sound');
+    sound.currentTime = 0; // Reset the audio playback time to the beginning
+    sound.play();
 
-  // Remove shaking class after 0.5s
-  setTimeout(() => {
-    ball.classList.remove("shaking");
-    const randomIndex = Math.floor(Math.random() * answers.length);
-    const answer = answers[randomIndex];
-    document.getElementById("answer").textContent = answer;
-  }, 500);
+    // Add the shaking class for animation
+    ball.classList.add('shaking');
+
+    // Remove the shaking class after a short delay
+    setTimeout(function() {
+      ball.classList.remove('shaking');
+      const randomIndex = Math.floor(Math.random() * answers.length);
+      const answer = answers[randomIndex];
+      document.getElementById("answer").textContent = answer;
+    }, 500); // Adjust the delay to match the duration of the animation
+  });
+
 }
