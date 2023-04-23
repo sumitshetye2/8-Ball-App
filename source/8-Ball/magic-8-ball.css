@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: blue;
+    background-color: #2e2151;
     color: #fff;
 }
 
@@ -43,11 +43,80 @@ h1 {
 }
 
 @keyframes shake {
-    0%, 100% { transform: translateX(0); }
-    10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
-    20%, 40%, 60%, 80% { transform: translateX(5px); }
-  }
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-5px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(5px);
+    }
+}
 
 .shaking {
     animation: shake 0.5s;
 }
+
+.container2 {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+.answer-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate
+}
+
+input[type="text"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-bottom: 2px solid #555;
+  }
+
+  label[for="question"] {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  
