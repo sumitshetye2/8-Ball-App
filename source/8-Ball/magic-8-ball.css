@@ -5,40 +5,6 @@ body {
     background-size: 750% 500%;
     animation: animate 15s ease infinite;
 }
-  
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  
-  body.magicball {
-    background: url('magicball.png') no-repeat center center fixed;
-    background-size: cover;
-  }
-  
-  body.stars {
-    background: url('night-stars.gif') no-repeat center center fixed;
-    background-size: cover;
-  }
-  
-  #background-selector {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-  }
-  
-  #background-selector option {
-    color: #000;
-    background: #fff;
-  }
-  
 
 h1 {
     user-select: none
@@ -167,4 +133,25 @@ input[type="text"] {
     font-size: 24px;
     line-height: 1.5;
  }
+  
+ body.magicball {
+    background: url('magicball.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  body.stars {
+    background: url('night-stars.gif') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  #background-selector {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+  
+  #background-selector option {
+    color: #000;
+    background: #fff;
+  }
   
