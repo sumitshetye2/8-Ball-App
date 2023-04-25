@@ -89,7 +89,7 @@ v0.3:
 
 v0.2:
 - Added a sound when button clicked
-- 
+
 v0.1:
 - added shaking effect when button clicked
 
