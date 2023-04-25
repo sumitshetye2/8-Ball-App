@@ -115,6 +115,8 @@ Hi everybody! I look forward to working with the team and learning essential sof
 
 
 
+## Bingyang Yu
 
-
+- Major Math-CS
+- Senior
   
