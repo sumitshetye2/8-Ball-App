@@ -51,10 +51,11 @@ function getAnswer() {
       const randomIndex = Math.floor(Math.random() * answers.length);
       const answer = answers[randomIndex];
       document.getElementById("answer").textContent = answer;
+      document.getElementById("searchbox").value = ""; // Reset the prompt to empty
     }, 500); // Adjust the delay to match the duration of the animation
   });
 
-  const questionInput = document.getElementById("question");
+  const questionInput = document.getElementById("searchbox"); // Change the id to match the HTML
   const magicBall = document.querySelector(".magic-8-ball");
 
   // add a listener to the question input field to enable/disable the magic ball
@@ -76,7 +77,11 @@ function getAnswer() {
     }
     getAnswer();
   });
+
+  document.getElementById("answer").innerHTML = randomAnswer;
+  document.getElementById("sound").play();
 }
+
 
 // Adds background selector
 var backgroundSelector = document.getElementById("background-selector");
