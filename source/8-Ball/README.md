@@ -60,11 +60,61 @@ body {
 ```
 A background for for magic-8-ball.html is generated from a linear gradient at a 45 degree angle containing the colors red, blue, and green. This background is then resized and in practice only a portion of the background is showing. The animation is from this enlarged background by being shifted side to side creating the illusion that the colors are changing.
 
-### Background Selector (*Date Implemented Here*)
+### Background Selector (*Implemented 4/24/2023*)
+In magic-8-ball.html:
 ```
-paste code here
+<select id="background-selector">
+    <option value="">✧✧ Select a Background ✧✧</option>
+    <option value="gradient">Gradient Background</option>
+    <option value="magicball">Magic Ball Background</option>
+    <option value="stars">Stars Background</option>
+</select>
 ```
-Add explanation here
+A select element is generated after the introduction screen, prompting three different background options. The 8-ball app's background defaults to the gradient background when first opened.
+
+In magic-8-ball.css:
+```
+body.magicball {
+    background: url('magicball.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  body.stars {
+    background: url('night-stars.gif') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  #background-selector {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+  
+  #background-selector option {
+    color: #000;
+    background: #fff;
+  }
+```
+Two new backgrounds are defined to cover the screen for when they are chosen through the selector. The selector's button is also specified and placed at the top right of the screen.
+
+In magic-8-ball.html:
+```
+var backgroundSelector = document.getElementById("background-selector");
+
+backgroundSelector.addEventListener("change", function() {
+  var selectedValue = this.value;
+  if (selectedValue === "gradient") {
+    document.body.classList.remove("stars", "magicball");
+  } else if (selectedValue === "magicball") {
+    document.body.classList.remove("stars");
+    document.body.classList.add("magicball");
+  } else if (selectedValue === "stars") {
+    document.body.classList.remove("magicball");
+    document.body.classList.add("stars");
+  }
+});
+```
+In the event a new background is selected, the background selector variable removes the previous background and adds the selected one. The default background is never removed.
 
 
 ## Contributing
@@ -73,6 +123,9 @@ Add explanation here
 Sumit Shetye - [About Me](https://sumitshetye2.github.io/first-lab/)  
 - Gradient Background
 - Documentation
+
+Sholehani Hafezi - [About Me](https://sholehani.github.io/cse110-lab1/)
+- Background Selector
 
 ## Changelog
 v0.6:
