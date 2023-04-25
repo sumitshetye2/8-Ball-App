@@ -98,5 +98,8 @@ v0.0:
 - Basic 8-ball built from generative A.I
 - Switched AI generated button to clickable 8-ball button
 
+## Citations
+*Add screenshots of ChatGPT logs if you used them to generate code for the project here*
+
 
 
