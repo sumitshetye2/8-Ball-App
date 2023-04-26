@@ -4,7 +4,10 @@
 This web app was made via HTML, CSS, and Javascript. Its functionality is that of a basic toy 8-ball you can find in at a store. Clicking the ball will generate a random response
 
 ## Link to App
-[8-ball App]()
+[8-ball App](file:///C:/Users/maana/OneDrive/Documents/GitHub/cse110-sp23-group24/source/8-Ball/intro-screen.html)
+
+## Link to Slides
+[8-ball Slides](https://docs.google.com/presentation/d/1BX6Zg3tX9klgZdVdS8Vde1oiTOYtv6jMNfVOwSJcCyU/edit#slide=id.g2395cc508c3_1_227)
 
 ## Video Demo
 [click here (markdown doesn't support video natively, so a link to the video demo should be fine)](https://youtu.be/nBaoaK6vsYw)
