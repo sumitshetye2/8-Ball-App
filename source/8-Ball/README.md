@@ -1,10 +1,12 @@
 # :8ball: We Take Showers's Magic 8-Ball App :8ball:
 
 ## Project Description
-This web app was made via HTML, CSS, and Javascript. Its functionality is that of a basic toy 8-ball you can find in at a store. Clicking the ball will generate a random response
+This web app was made via HTML, CSS, and Javascript. Its functionality is that of a basic toy 8-ball you can find in at a store. Clicking the ball will generate a random response.
 
 
 
+## Link to Slides
+[8-ball Slides](https://docs.google.com/presentation/d/1BX6Zg3tX9klgZdVdS8Vde1oiTOYtv6jMNfVOwSJcCyU/edit#slide=id.g2395cc508c3_1_227)
 ## Video Demo
 [Click here](https://youtu.be/nBaoaK6vsYw)
 
