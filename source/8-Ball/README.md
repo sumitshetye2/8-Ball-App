@@ -7,6 +7,10 @@ This web app was made via HTML, CSS, and Javascript. Its functionality is that o
 
 ## Link to Slides
 [8-ball Slides](https://docs.google.com/presentation/d/1BX6Zg3tX9klgZdVdS8Vde1oiTOYtv6jMNfVOwSJcCyU/edit#slide=id.g2395cc508c3_1_227)
+
+## Live Demo
+[Click here](https://cse110-sp23-group24.pages.dev/magic-8-ball-intro-screen)
+
 ## Video Demo
 [Click here](https://youtu.be/nBaoaK6vsYw)
 
