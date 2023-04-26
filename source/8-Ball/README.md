@@ -3,38 +3,271 @@
 ## Project Description
 This web app was made via HTML, CSS, and Javascript. Its functionality is that of a basic toy 8-ball you can find in at a store. Clicking the ball will generate a random response
 
-## Link to App
-[8-ball App]()
+
 
 ## Video Demo
-[click here (markdown doesn't support video natively, so a link to the video demo should be fine)](https://youtu.be/nBaoaK6vsYw)
+[Click here](https://youtu.be/nBaoaK6vsYw)
 
 
 ## Notable Code
 
-### Basic Implementation (*Date Implemented Here*)
+### Basic Implementation (*Implemented 4/21/2023*)
+In magic-8-ball.html:
 ```
-paste code here
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic 8-Ball</title>
+    <link rel="stylesheet" href="magic-8-ball.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Magic 8-Ball</h1>
+      <div class="magic-8-ball disabled" onclick="getAnswer()">
+        <p id="answer">Click the ball to get an answer</p>
+      </div>
+    </div>
+    <script src="magic-8-ball.js"></script>
+  </body>
+</html>
 ```
-Add explanation here
 
-### 8-ball Sound Effect (*Date Implemented Here*)
-```
-paste code here
-```
-Add explanation here
 
-### Text Box (*Date Implemented Here*)
+In magic-8-ball.css:
 ```
-paste code here
-```
-Add explanation here
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: linear-gradient(45deg, red, blue, green);
+    background-size: 750% 500%;
+    animation: animate 15s ease infinite;
+}
 
-### Text Box (*Date Implemented Here*)
+h1 {
+    user-select: none
+}
+
+.container {
+    max-width: 600px;
+    margin-inline: auto;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+
+#answer {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    padding-inline: 30px;
+    padding-block: 30px;
+    border-radius: 10px;
+    user-select: none
+}
+
 ```
-paste code here
+
+In magic-8-ball.js
 ```
-Add explanation here
+document.getElementById("answer").textContent =
+  "Click the ball to get an answer";
+
+function getAnswer() {
+  const answers = [
+    "It is certain",
+    "It is decidedly so",
+    "Without a doubt",
+    "Yes, definitely",
+    "You may rely on it",
+    "As I see it, yes",
+    "Most likely",
+    "Outlook good",
+    "Yes",
+    "Signs point to yes",
+    "Reply hazy, try again",
+    "Ask again later",
+    "Better not tell you now",
+    "Cannot predict now",
+    "Concentrate and ask again",
+    "Don't count on it",
+    "My reply is no",
+    "My sources say no",
+    "Outlook not so good",
+    "Very doubtful",
+  ];
+
+
+  document.getElementById("answer").innerHTML = randomAnswer;
+  
+}
+```
+This was the basic code generated via ChatGPT, in which we asked it to generate a ball with which to place a box containing the answer. When the ball is clicked only the answer was changed.
+
+### 8-ball Shaking Effect (*Implemented 4/21/23*)
+In magic-8-ball.css:
+```
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-5px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(5px);
+    }
+}
+
+.shaking {
+    animation: shake 0.5s;
+}
+```
+
+In magic-8-ball.js:
+```
+ball.addEventListener("click", function () {
+    if (isShaking) {
+      return;
+    }
+
+    // Add the shaking class for animation
+    isShaking = true;
+    ball.classList.add("shaking");
+
+    // Remove the shaking class after a short delay
+    setTimeout(function () {
+      ball.classList.remove("shaking");
+      isShaking = false;
+      const randomIndex = Math.floor(Math.random() * answers.length);
+      const answer = answers[randomIndex];
+      document.getElementById("answer").textContent = answer;
+      document.getElementById("searchbox").value = ""; // Reset the prompt to empty
+    }, 500); // Adjust the delay to match the duration of the animation
+  });
+```
+The above changes in the code allows for the 8 ball to shake left to right for a short time simulating how you would shake a real toy magic 8-ball.
+
+### 8-ball Sound Effect (*Implemented 4/22/23*)
+In magic-8-ball.js:
+```
+// Play the sound effect
+const sound = document.getElementById("sound");
+sound.currentTime = 0; // Reset the audio playback time to the beginning
+sound.play();
+```
+In magic-8-ball.html:
+```
+<div class="container">
+    <h1>Magic 8-Ball</h1>
+    <div class="magic-8-ball disabled" onclick="getAnswer()">
+        <p id="answer">Click the ball to get an answer</p>
+    </div>
+</div>
+<audio id="sound" src="8ballnoise.mp3" preload="auto"></audio>
+```
+In magic-8-ball.js:
+```
+document.getElementById("sound").play();
+```
+The above code causes a sound to be played when the 8-ball is clicked.
+### Text Box (*Implemented 4/22/2023*)
+In magic-8-ball.html:
+```
+<div class="container2"">
+    <form onsubmit="event.preventDefault();">
+        <label for="question">Ask a Question:</label>
+        <input type="text" id="searchbox" name="searchbox" required>
+    </form>
+</div>
+```
+
+In magic-8-ball.css:
+```
+.container2 {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+.answer-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate
+}
+
+input[type="text"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+ }
+  
+ input[type="text"]:focus {
+    outline: none;
+    border-bottom: 2px solid #555;
+ }
+
+ label[for="question"] {
+    font-size: 24px;
+    line-height: 1.5;
+ }
+ ```
+
+ In magic-8-ball.js
+ ```
+   // add a listener to the question input field to enable/disable the magic ball
+  questionInput.addEventListener("input", () => {
+    if (questionInput.value.trim() === "") {
+      magicBall.classList.add("disabled");
+    } else {
+      magicBall.classList.remove("disabled");
+    }
+  });
+  ```
+Adds a UI for the user to input a question as well as a button to submit the response, triggering the 8-ball to activate. When this feature was first implemented, the input box did not clear itself to ready itself for the next question. This was later patched (See 'Text Box Enpty Feature').
+
+
 
 ### Gradient Background (*Implemented 4/23/2023*)
 In magic-8-ball.css:
@@ -217,6 +450,19 @@ Sholehani Hafezi - [About Me](https://sholehani.github.io/cse110-lab1/)
 Kartik Gugnani - [About Me](https://kgugnani.github.io/CSE110_Lab1/)
 - Text Box Empty Feature
 
+Nathan Huey - [About Me](https://nahuey.github.io/cse110sp2023-lab1/)
+- Intro Screen
+
+Linda Wu - [About Me](https://liindawu.github.io/Lab1/)
+- Sound Effect
+
+Benjamin Liang - [About Me](https://beliang.github.io/cse110-lab1/)
+- Text Box
+
+Haoyang Guo - [About Me](https://haoyangguo.github.io/cse110-lab1/)
+- Basic Implementation
+- Shaking Effect
+
 ## Changelog
 v0.7:
 - Made it so that text box is empty after every click on 8 ball
@@ -243,9 +489,4 @@ v0.1:
 v0.0:  
 - Basic 8-ball built from generative A.I
 - Switched AI generated button to clickable 8-ball button
-
-## Citations
-*Add screenshots of ChatGPT logs if you used them to generate code for the project here*
-
-ChatGPT
 
