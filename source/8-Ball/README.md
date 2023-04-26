@@ -7,7 +7,8 @@ This web app was made via HTML, CSS, and Javascript. Its functionality is that o
 [8-ball App]()
 
 ## Video Demo
-[click here (markdown doesn't support video natively, so a link to the video demo should be fine)](cse110-sp23-group24/source/8-ball/8balldemo.mp4)
+[click here (markdown doesn't support video natively, so a link to the video demo should be fine)](https://youtu.be/nBaoaK6vsYw)
+
 
 ## Notable Code
 
