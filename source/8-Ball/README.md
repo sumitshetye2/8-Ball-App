@@ -6,8 +6,8 @@ This web app was made via HTML, CSS, and Javascript. Its functionality is that o
 ## Link to App
 [8-ball App]()
 
-## Video Example
-[click here (markdown doesn't support video natively, so a link to the video demo should be fine)]()
+## Video Demo
+[click here (markdown doesn't support video natively, so a link to the video demo should be fine)](source/8-ball/8balldemo.mp4)
 
 ## Notable Code
 
@@ -120,6 +120,7 @@ In the event a new background is selected, the background selector variable remo
 Prompt: Given the following html and js files edit it so that when the 8 ball is clicked the prompt resets to empty for the user to ask another question
 
 Function change output in magic-8-ball.js:
+```
 function getAnswer() {
   const answers = [
     "It is certain",
@@ -198,6 +199,7 @@ function getAnswer() {
   document.getElementById("answer").innerHTML = randomAnswer;
   document.getElementById("sound").play();
 }
+```
 
 
 
