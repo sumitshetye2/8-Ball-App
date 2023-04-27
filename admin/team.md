@@ -117,6 +117,10 @@ Hi everybody! I look forward to working with the team and learning essential sof
 
 ## Bingyang Yu
 
+<img src="./images/bingyang.png" alt="Bingyang Yu" width="300">
+
 - Major Math-CS
 - Senior
-  
+- [Page](https://8yby8sd.github.io/CSE110Lab1/)
+
+Hello! My name is Bingyang Yu and I am interested in Computer Visualization and Computer Graph.
