@@ -468,6 +468,9 @@ Haoyang Guo - [About Me](https://haoyangguo.github.io/cse110-lab1/)
 - Shaking Effect
 - Default message and Bug fixes
 
+Maanasa Prasad - [About Me](https://maanasa64.github.io/cse110-lab01/)
+- 8-ball Slides
+
 ## Changelog
 v0.8:
 - Prevent user from pressing the ball without asking a question
