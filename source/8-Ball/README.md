@@ -466,8 +466,13 @@ Benjamin Liang - [About Me](https://beliang.github.io/cse110-lab1/)
 Haoyang Guo - [About Me](https://haoyangguo.github.io/cse110-lab1/)
 - Basic Implementation
 - Shaking Effect
+- Default message and Bug fixes
 
 ## Changelog
+v0.8:
+- Prevent user from pressing the ball without asking a question
+- Style updates
+
 v0.7:
 - Made it so that text box is empty after every click on 8 ball
 
