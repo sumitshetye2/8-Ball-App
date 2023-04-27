@@ -1,4 +1,4 @@
-document.getElementById("answer").textContent = "Please add a question first!";
+document.getElementById("answer").textContent = "Ask a question and press the magic 8-ball for an answer!";
 
 const questionInput = document.getElementById("searchbox"); // Change the id to match the HTML
 const magicBall = document.querySelector(".magic-8-ball");
@@ -7,12 +7,6 @@ const ball = document.querySelector(".magic-8-ball");
 let isShaking = false;
 
 ball.addEventListener("click", getAnswer);
-questionInput.addEventListener("change", () => {
-  if (questionInput.value.trim() !== "") {
-    document.getElementById("answer").textContent =
-      "Click the Magic 8 Ball to get an answer!";
-  } 
-});
 
 function getAnswer() {
   const answers = [
