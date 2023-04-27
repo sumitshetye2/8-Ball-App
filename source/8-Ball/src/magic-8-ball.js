@@ -11,10 +11,7 @@ questionInput.addEventListener("change", () => {
   if (questionInput.value.trim() === "") {
     document.getElementById("answer").textContent =
       "Please add a question first!";
-  } else {
-    document.getElementById("answer").textContent =
-      "Click the Magic 8 Ball to get an answer!";
-  }
+  } 
 });
 
 function getAnswer() {
