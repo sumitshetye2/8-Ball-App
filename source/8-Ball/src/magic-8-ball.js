@@ -8,9 +8,9 @@ let isShaking = false;
 
 ball.addEventListener("click", getAnswer);
 questionInput.addEventListener("change", () => {
-  if (questionInput.value.trim() === "") {
+  if (questionInput.value.trim() !== "") {
     document.getElementById("answer").textContent =
-      "Please add a question first!";
+      "Click the Magic 8 Ball to get an answer!";
   } 
 });
 
