@@ -33,7 +33,6 @@ function getAnswer() {
     "Very doubtful",
   ];
 
-  // Add a click event listener to the Magic 8-Ball
   if (isShaking || questionInput.value.trim() === "") {
     return;
   }
