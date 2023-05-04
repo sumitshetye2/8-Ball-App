@@ -34,7 +34,7 @@
     - Past: how past affects present
     - Present: what is going on in your life now
     - Future: prediction based on card picked
-  - Explain why user has to pick a card
+  - Explain why user has to pick a card. 
   - Sounds, Actions based on what card was picked
   - Categories: Love Life, Money, etc
 
@@ -42,6 +42,16 @@
 [Link to Mindmap](https://excalidraw.com/#room=02adf0eee133202758ec,mCtSPQTiT1grd3zvOc8uRA)
 
 ![Image](/specs/brainstorm/roadmap.png)
+
+
+## Basic Working of the App
+- All cards must be face down.
+- User picks a card and/or inputs some information
+- Feedback given about User's Past, Present and Future based on chosen cards. 
+
+## User and their Expectations
+- User must be excited for the results.
+- Content must have both, good and bad things, but must mostly end on an upbeat note. 
 
 ## Planning for Starting Pitch
 What is Needed:
