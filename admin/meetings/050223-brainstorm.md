@@ -29,3 +29,6 @@ We are leaning towards wanting to use some AI in order to generate responses:
 Examples:
 - Here are some keywords from user input, make a sort of fortune (Crystal ball)
  - Feature where you can use an API to interact with ChatGPT
+
+
+Meeting Ended at 5pm
