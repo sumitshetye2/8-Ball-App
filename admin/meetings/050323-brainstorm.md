@@ -41,7 +41,7 @@
 ## Mindmap
 [Link to Mindmap](https://excalidraw.com/#room=02adf0eee133202758ec,mCtSPQTiT1grd3zvOc8uRA)
 
-![Image](specs/brainstorm/roadmap.png)
+![Image](./specs/brainstorm/roadmap.png)
 
 ## Planning for Starting Pitch
 What is Needed:
