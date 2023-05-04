@@ -48,3 +48,4 @@ What is Needed:
 - User Personas: **Linda**
 - Visual Representation: **Sumit, Haoyang and Nicholas**
 
+Meeting Ended: 6:54 PM
