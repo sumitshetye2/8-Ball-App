@@ -46,8 +46,15 @@
 
 ## Basic Working of the App
 - All cards must be face down.
-- User picks a card and/or inputs some information
+- User picks a card and/or inputs some information.
+- Each card must have a different image. Sound effects will be added such as card flip noise. 
 - Feedback given about User's Past, Present and Future based on chosen cards. 
+
+## Competition We Might Potentially Face
+- Other teams may come up with their own unique ways to predict future and it might end up being more entertaining and creative.
+- Having just one feature may be a setback for us. Many teams might add multiple things to attract Users, assuming they work correctly. 
+- Other teams could have a more visually pleasing aesthetic to their app.
+- Other teams could have effects such as voice recognition, shaking to get reply, etc.
 
 ## User and their Expectations
 - User must be excited for the results.
