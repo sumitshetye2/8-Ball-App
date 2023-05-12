@@ -1,105 +1,105 @@
 # We Take Showers
 ### CSE110 Spring23 Team24
 
-*TODO: add team values*
+Values: Empathy, Communication, Integrity, Growth
 
 ## Members
 
 <hr />
 
-## Name
+## Linda Wu
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/lindawu.jpg" alt="Linda Wu" width="200">
 
-- Major
-- Year
-- [Page]()
+- CS
+- Junior
+- [Page](https://liindawu.github.io/Lab1/)
   
-*TODO: add self introduction here*
+Hi! My name is Linda and some of my professional interests include product management and software engineering.
 
 <hr />
 
-## Name
+## Kartik Gugnani
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/kartikg.png" alt="Kartik Gugnani" width="200">
 
-- Major
-- Year
-- [Page]()
+- Computer Science
+- Junior
+- [Page](https://github.com/kgugnani)
   
-*TODO: add self introduction here*
+Hello! I'm Kartik and I'm a junior studying Computer Science. I'm interested in software engineering and web development.
 
 <hr />
 
-## Name
+## Sumit Shetye
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/sumit.jpg" alt="YOUR NAME HERE" width="200">
 
-- Major
-- Year
-- [Page]()
+- Math-CS
+- Junior
+- [Page](https://sumitshetye2.github.io/first-lab/)
   
-*TODO: add self introduction here*
+Hello! My name is Sumit and my interests lie in software engineering and game development.
 
 <hr />
 
-## Name
+## Maanasa Prasad
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/maanasa_p.jpg" alt="Maanasa Prasad" width="300">
 
-- Major
-- Year
-- [Page]()
+- Math-CS
+- Sophomore
+- [Page](https://maanasa64.github.io/cse110-lab01/)
   
-*TODO: add self introduction here*
+Hello! My name is Maanasa Prasad and I am interested in Software Engineering. 
 
 <hr />
 
-## Name
+## Nicholas Ho
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/nick.jpg" alt="Nicholas Ho" width="300">
 
-- Major
-- Year
-- [Page]()
+- Computer Science
+- Sophomore
+- [Page](https://nickho2048.github.io/Cse-110-revised/index)
   
-*TODO: add self introduction here*
+Hello! My name is Nicholas Ho, and I'm interested in Artificial Intelligence, Front End Development, and Product Management. 
 
 <hr />
 
-## Name
+## Nathan Huey
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/nathan.jpg" alt="Nathan Huey" width="300">
 
-- Major
-- Year
-- [Page]()
+- Math-CS
+- Sophomore
+- [Page](https://nahuey.github.io/cse110sp2023-lab1/)
   
-*TODO: add self introduction here*
+Hello! My name is Nathan Huey and I am interested in software engineering and data science.
 
 <hr />
 
-## Name
+## Sholehani Hafezi
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/shol.jpg" alt="Sholehani Hafezi" width="300">
 
-- Major
-- Year
-- [Page]()
+- Computer Science
+- Junior
+- [Page](https://sholehani.github.io/cse110-lab1/)
   
-*TODO: add self introduction here*
+Hi! My name is Shol and I interested mainly in web development and software engineering. 
 
 <hr />
 
-## Name
+## Benjamin Liang
 
-<img src="./images/YOURNAME.jpg" alt="YOUR NAME HERE" width="300">
+<img src="./images/ben.jpg" alt="Benjamin Liang" width="300">
 
-- Major
-- Year
-- [Page]()
+- Major Math - CS
+- Year Sophomore
+- [Page](https://beliang.github.io/cse110-lab1/)
   
-*TODO: add self introduction here*
+Hello! My name is Benjamin Liang and I am interested in Artificial Intelligence and Backend Development.
 
 <hr />
 
@@ -115,6 +115,12 @@ Hi everybody! I look forward to working with the team and learning essential sof
 
 
 
+## Bingyang Yu
 
+<img src="./images/bingyang.png" alt="Bingyang Yu" width="300">
 
-  
+- Major Math-CS
+- Senior
+- [Page](https://8yby8sd.github.io/CSE110Lab1/)
+
+Hello! My name is Bingyang Yu and I am interested in Computer Visualization and Computer Graph.
