@@ -1,0 +1,24 @@
+name: Code Climate
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  codeclimate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          npm install -g codeclimate-test-reporter
+
+      - name: Run Code Climate
+        run: |
+          codeclimate-test-reporter before-build
+          codeclimate-test-reporter format-coverage --output json > codeclimate.json
+          codeclimate-test-reporter upload-coverage
