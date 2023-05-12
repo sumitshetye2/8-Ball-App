@@ -6,3 +6,5 @@ The goal of this phase is to create a vetting phase of the CI/CD pipeline that e
 ## Pipeline Overview
 
 The pipeline is built on Github Actions and consists of the following steps:
+
+1. Linting: This step checks for code style consistency and formatting issues using ESLint. If there are any issues, the pipeline fails and provides feedback to the developer. <br> We chose to use this as Haoyang has experience with it and he recommended it. 
