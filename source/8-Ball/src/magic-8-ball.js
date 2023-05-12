@@ -1,8 +1,8 @@
 document.getElementById("answer").textContent = "Ask a question and press the magic 8-ball for an answer!";
 
-const questionInput = document.getElementById("searchbox"); // Change the id to match the HTML
-const magicBall = document.querySelector(".magic-8-ball");
-const ball = document.querySelector(".magic-8-ball");
+var questionInput = document.getElementById("searchbox"); // Change the id to match the HTML
+var magicBall = document.querySelector(".magic-8-ball");
+var ball = document.querySelector(".magic-8-ball");
 
 let isShaking = false;
 
