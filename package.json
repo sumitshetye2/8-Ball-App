@@ -1,0 +1,15 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "A project with ESLint configuration",
+    "devDependencies": {
+      "eslint": "^7.32.0"
+    },
+    "scripts": {
+      "lint": "eslint ."
+    },
+    "eslintConfig": {
+      "extends": "eslint:recommended"
+    }
+  }
+  
