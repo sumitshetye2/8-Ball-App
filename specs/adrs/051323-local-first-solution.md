@@ -12,7 +12,7 @@ We aim to provide a superior local-first user experience. Additionally, it's cru
 
 ## Decision Outcome
 
-Chosen option: "Electron JS", as it is best suited to our needs and the team's familiarity (details below).
+Chosen option: Electron JS, as it is best suited to our needs and the team's familiarity (details below).
 
 ### Consequences
 
