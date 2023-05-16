@@ -16,10 +16,19 @@ Installation Instructions:
 ![Image](install_eslint1.png)
 - (C) Configure ESLint using command `npm init @eslint/config -- --config semistandard`
 ![Image](/admin/cipipeline/install_eslint2.png)
-- (C) Run ESLint on any file, such as yourfile.js using command `npx eslint yourfile.js`
+- (D) Run ESLint on any file, such as yourfile.js using command `npx eslint yourfile.js`
 
 Some useful resources to use ESLint:
 - [Why I always use ESLint in my projects](https://youtu.be/ZuDIXV94Z1w)
 - [Use ESLint in Your Project](https://eslint.org/docs/latest/use/)
 - [ESLint Quickstart - find errors automatically](https://www.youtube.com/watch?v=qhuFviJn-es&ab_channel=freeCodeCamp.org)
 
+Pros of Using ESLint:
+a. Rules Are Customizable.
+b. Provides Code consistency
+c. Helps in Catching errors
+
+Cons of Using ESLint:
+a. Not always correct
+b. Gives False Positives
+c. Doesn’t Fix Unused Variable
