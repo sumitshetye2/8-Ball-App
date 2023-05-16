@@ -11,8 +11,8 @@ The pipeline is built on Github Actions and consists of the following steps:
 Installation Instructions: 
 - (A) Install Node.js ready and built with SSL support.
 - (B) Install ESLint using command `npm init @eslint/config`. Then choose third option “To check syntax, find problems, and enforce code style”.
-[!Image](./install_eslint1.png)
+![Image](install_eslint1.png)
 - (C) Configure ESLint using command `npm init @eslint/config -- --config semistandard`
-[!Image](/admin/cipipeline/install_eslint2.png)
+![Image](/admin/cipipeline/install_eslint2.png)
 
 
