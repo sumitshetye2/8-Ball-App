@@ -7,7 +7,9 @@ The goal of this phase is to create a vetting phase of the CI/CD pipeline that e
 
 The pipeline is built on Github Actions and consists of the following steps:
 
-1. Linting: This step checks for code style consistency and formatting issues using ESLint. If there are any issues, the pipeline fails and provides feedback to the developer. <br> We chose to use this as Haoyang has experience with it and he recommended it. ESLint is an open source project that helps you find and fix problems with JavaScript code. In addition, it statically analyzes code to quickly find problems, and it is built into text editors and runs ESLint as part of our project’s continuous integration pipeline to find issues. After it finds the issues, it will fix problems automatically most of the time and be syntax-aware, which means we won’t face errors introduced by transitional find-and-repace algorithms. In addition, if we want,  we can customize it. For example, pre-processs code, use custom parsers, and add rules besides ESLint’s built-in rules.The guidelines to use ESList can be found [here](https://eslint.org/docs/latest/). <br>
+### Linting: 
+
+This step checks for code style consistency and formatting issues using ESLint. If there are any issues, the pipeline fails and provides feedback to the developer. <br> We chose to use this as Haoyang has experience with it and he recommended it. ESLint is an open source project that helps you find and fix problems with JavaScript code. In addition, it statically analyzes code to quickly find problems, and it is built into text editors and runs ESLint as part of our project’s continuous integration pipeline to find issues. After it finds the issues, it will fix problems automatically most of the time and be syntax-aware, which means we won’t face errors introduced by transitional find-and-repace algorithms. In addition, if we want,  we can customize it. For example, pre-processs code, use custom parsers, and add rules besides ESLint’s built-in rules.The guidelines to use ESList can be found [here](https://eslint.org/docs/latest/). <br>
 
 
 Installation Instructions: 
@@ -23,12 +25,12 @@ Some useful resources to use ESLint:
 - [Use ESLint in Your Project](https://eslint.org/docs/latest/use/)
 - [ESLint Quickstart - find errors automatically](https://www.youtube.com/watch?v=qhuFviJn-es&ab_channel=freeCodeCamp.org)
 
-Pros of Using ESLint:
-a. Rules Are Customizable.
-b. Provides Code consistency
-c. Helps in Catching errors
+Pros of Using ESLint: <br>
+a. Rules Are Customizable. <br>
+b. Provides Code consistency. <br>
+c. Helps in Catching errors. <br>
 
-Cons of Using ESLint:
-a. Not always correct
-b. Gives False Positives
-c. Doesn’t Fix Unused Variable
+Cons of Using ESLint: <br>
+a. Not Always Correct. <br>
+b. Gives False Positives. <br>
+c. Doesn’t Fix Unused Variable. <br>
