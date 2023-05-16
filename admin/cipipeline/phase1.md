@@ -13,6 +13,6 @@ Installation Instructions:
 - (B) Install ESLint using command `npm init @eslint/config`. Then choose third option “To check syntax, find problems, and enforce code style”.
 [!Image](install_eslint1.png)
 - (C) Configure ESLint using command `npm init @eslint/config -- --config semistandard`
-[!Image](/admin/cipipeline/eslint2.png)
+[!Image](/admin/cipipeline/install_eslint2.png)
 
 
