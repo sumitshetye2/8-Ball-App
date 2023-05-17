@@ -50,6 +50,6 @@ b. Helps in Producing Better and Cleaner Code. <br>
 c. Auto Sync With Github. <br>
 
 Cons of Using CodeClimate: <br>
-a. Is a "Dashboard of Engineering Leadership" [from here](https://www.swarmia.com/alternative/code-climate-velocity/?utm_term=codeclimate&utm_campaign=SRH-COMPETITORS-USA-EN&utm_source=adwords&utm_medium=ppc&hsa_acc=6644081770&hsa_cam=16463390797&hsa_grp=134848023835&hsa_ad=616241566270&hsa_src=g&hsa_tgt=kwd-512657187732&hsa_kw=codeclimate&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjw04yjBhApEiwAJcvNoUQn-K_7qGP7w4ULqvKiw5W3eehyMMmOwsE4cgJoeLr8B-c_713sABoCozMQAvD_BwE)<br>
+a. Is a "Dashboard of Engineering Leadership". ([refer here](https://www.swarmia.com/alternative/code-climate-velocity/?utm_term=codeclimate&utm_campaign=SRH-COMPETITORS-USA-EN&utm_source=adwords&utm_medium=ppc&hsa_acc=6644081770&hsa_cam=16463390797&hsa_grp=134848023835&hsa_ad=616241566270&hsa_src=g&hsa_tgt=kwd-512657187732&hsa_kw=codeclimate&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjw04yjBhApEiwAJcvNoUQn-K_7qGP7w4ULqvKiw5W3eehyMMmOwsE4cgJoeLr8B-c_713sABoCozMQAvD_BwE))<br>
 b. Only focuses on tracking activity of individual developers. <br>
 c. CodeClimate offers a wide range of features and settings, which can make it initially challenging for new users to navigate and configure. <br>
