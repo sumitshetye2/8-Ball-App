@@ -40,4 +40,4 @@ Some useful resources to use ESLint:
 
 ### Code Quality Via Tool: 
 
-This step is vital in ensuring good software quality. To avoid repetition, maintain readability of code and have help in pointing out errors, we choose to use CodeClimate. It is a GitHub friendly tool with many advantages. 
+This step is vital in ensuring good software quality. To avoid repetition, maintain readability of code and have help in pointing out errors, we choose to use CodeClimate. It is a GitHub friendly tool with many advantages. "Code Climate’s flagship product, Velocity, analyzes all the data from your GitHub repos and provides you with heads-up displays, real-time analytics, and custom reports to give you a clearer perspective on how your engineering team is working." ([Link](https://codeclimate.com/company#:~:text=Code%20Climate's%20flagship%20product%2C%20Velocity,your%20engineering%20team%20is%20working.)
